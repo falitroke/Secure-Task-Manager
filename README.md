@@ -1,4 +1,3 @@
-
 # Secure Task Manager
 
 ![Build Status](https://github.com/rafael-fuentes/secure-task-manager/actions/workflows/ci.yml/badge.svg)
@@ -30,6 +29,7 @@ Follow these steps to set up the project locally:
    git clone https://github.com/rafael-fuentes/secure-task-manager.git
    cd secure-task-manager
    ```
+   
 2. **Install Python dependencies**:
    ```bash
    pip install -r requirements.txt
