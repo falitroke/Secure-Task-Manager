@@ -1,0 +1,17 @@
+{
+    "name": "secure-task-manager",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+      "build": "esbuild src/client/index.js --bundle --minify --outfile=src/static/client.js",
+      "start": "npm run build && node src/app.py"
+    },
+    "dependencies": {
+      "axios": "^1.6.7",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "esbuild": "^0.19.5"
+    }
+  }
